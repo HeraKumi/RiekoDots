@@ -4,3 +4,6 @@
 [submodule "packages/RiyekoMenu"]
 	path = packages/RiyekoMenu
 	url = https://github.com/HeraKumi/RiyekoMenu
+[submodule "packages/RiyekoBot"]
+	path = packages/RiyekoBot
+	url = https://github.com/HeraKumi/RiyekoBot
