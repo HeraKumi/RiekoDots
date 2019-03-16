@@ -1,5 +1,10 @@
 .cache
 .config/discord
+.config/obs-studio
+.config/mpd
+.mono
+.serverauth.*
+.wget-*
 .npm
 .vscode-oss
 .zcompdump-Hoshiko-5.7.1
