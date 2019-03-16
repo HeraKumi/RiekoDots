@@ -1,6 +1,3 @@
-[submodule "RiyekoMenu"]
-	path = RiyekoMenu
-	url = https://github.com/HeraKumi/RiyekoMenu
 [submodule "packages/RiyekoMenu"]
 	path = packages/RiyekoMenu
 	url = https://github.com/HeraKumi/RiyekoMenu
