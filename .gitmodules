@@ -10,3 +10,6 @@
 [submodule "packages/RiyekoWeb"]
 	path = packages/RiyekoWeb
 	url = https://github.com/HeraKumi/RiyekoWeb
+[submodule "packages/void-packages"]
+	path = packages/void-packages
+	url = https://github.com/void-linux/void-packages

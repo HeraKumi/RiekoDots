@@ -3,7 +3,6 @@ set $mod Mod1
 font pango:DejaVu Sans Mono 8
 
 # Monitors Settings
-exec_always polybar example
 exec_always xrandr --output HDMI1 --primary --mode 1920x1080 --rate 74.97 --pos 1366x0 --rotate normal
 exec_always xradnr --output eDP1 --mode 1366x768 --rate 60.00 --pos 0x312 --rotate normal
 	# Backgound
@@ -123,9 +122,10 @@ bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. 
 exec_always --no-startup-id xrdb -load ~/.Xresources
 exec_always pulseaudio --start
 exec_always nm-applet
+exec_always polybar example
 
 # User added stuff
-bindsym $mod+r exec "rofi -show-icons -show run -terminal urxvt"
+bindsym $mod+r exec "rofi -show-icons -show drun -terminal urxvt"
 
 # User added global settings
 new_window pixel 5
