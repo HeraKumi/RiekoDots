@@ -124,7 +124,7 @@ exec_always --no-startup-id xrdb -load ~/.Xresources
 exec_always pulseaudio --start
 
 # User added stuff
-bindsym $mod+r exec "rofi -show-icons -show run -terminal urxvt"
+bindsym $mod+r exec "rofi -show-icons -show drun -terminal urxvt"
 
 # User added global settings
 new_window pixel 5
