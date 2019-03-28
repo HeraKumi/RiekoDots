@@ -19,9 +19,10 @@ xscreensaver.fade:   false
 xscreensaver.unfade: false
 
 ! ===== urxvt =====
-URxvt.font: xft:monospace:size=9
-URxvt.internalBorder:     22
-URxvt.geometry: 		72x18
+URxvt.font: xft:Roboto Mono:style=Regular:size=8
+
+URxvt.internalBorder:	22
+URxvt.geometry: 	72x18
 URxvt*termName:         rxvt-256color
 URxvt*scrollBar:        false
 URxvt*scrollBar_right:  false
